@@ -1,0 +1,9 @@
+.dividedSection {
+  display: flex;
+  flex-direction: row;
+  padding: 0.7rem 0;
+  gap: 1.3rem;
+}
+.frame {
+  position: relative;
+}

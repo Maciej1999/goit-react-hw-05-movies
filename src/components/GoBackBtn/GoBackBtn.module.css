@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  border: 0;
+  opacity: 0.6;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  padding: 0.2em 0.8em;
+  margin: 0 0.3em;
+  text-decoration: none;
+  border-radius: 6px;
+  color: #d70000;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+.button:hover:not(.themeDark) {
+  opacity: 1;
+  color: #fff;
+  background-color: #ff0000;
+  transform: scale(1.1);
+}
+
+.themeDark {
+  color: #c9c9c9;
+  background-color: #ffffff2b;
+}
+.themeDark.button:hover {
+  opacity: 1;
+  color: #b5b5b5;
+  transform: scale(1.1);
+}
+.themeDark.button::selection {
+  color: #39303d;
+  background-color: #8d7897;
+}

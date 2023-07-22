@@ -1,0 +1,29 @@
+.NavLink {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #68526e;
+  color: #212121;
+  height: 100%;
+  width: 100%;
+  line-height: 3rem;
+  text-decoration: none;
+}
+.themeDark {
+  color: #919191;
+}
+.MovieLink {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  border-radius: 6px;
+}
+.MovieLink:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #7b5f8e1d;
+}
+.MovieLi {
+  list-style: none;
+  height: 3rem;
+}
